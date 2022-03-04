@@ -1,0 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+
+.gallery_image {
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
