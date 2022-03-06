@@ -78,7 +78,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link @if (request()->is('services')) text-primary border-bottom border-primary @endif" href="{{ route('services') }}">Services</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link @if (request()->is('gallery')) text-primary border-bottom border-primary @endif" href="{{ route('gallery') }}">Gallery</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link @if (request()->is('about')) text-primary border-bottom border-primary @endif" href="{{ route('about') }}">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link text-white" href="tel:7026400919"><x-feathericon-phone/> Call Now</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-white" href="https://salons.go3reservation.com/star-nails-and-spa-6530-s-decatur-suite-115-las-vegas-nevada" target="_blank"><x-feathericon-calendar/> Book Now</a></li>
                 </ul>
             </div>
         </div>
@@ -133,6 +133,30 @@
     <script>
         AOS.init();
     </script>
+
+    <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-labelledby="popup" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <x-feathericon-x/>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="{{ asset('images/promotions/1.webp') }}" class="img-fluid">
+                </div>
+                <div class="modal-footer bg-primary"></div>
+            </div>
+        </div>
+    </div>
+    
+    @if (request()->is('/') || request()->is('services'))
+    <script>
+       $(document).ready(function(){
+        $('#popup').modal('show');
+       });
+    </script>
+    @endif
 </body>
 
 </html>

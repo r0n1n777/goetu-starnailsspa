@@ -11,14 +11,17 @@
                 <img src="{{ asset('images/home/about-icon.webp') }}">
                 <p class="mb-3">At Star Nails & Spa, we're here to pamper you. With our expert manicurists, you'll walk out of here looking and feeling better than ever. Stop by today and treat yourself to some TLC!</p>
                 <div class="mx-auto intro-button">
-                    <a class="btn btn-primary d-inline-block mx-auto btn-xl" role="button" href="tel:7026400919" style="font-size: 17px;font-family: Raleway, sans-serif;">
-                        <x-feathericon-phone/> Call Now
+                    <a class="btn btn-primary d-inline-block mx-auto btn-xl" role="button" href="https://salons.go3reservation.com/star-nails-and-spa-6530-s-decatur-suite-115-las-vegas-nevada" target="_blank" style="font-size: 17px;font-family: Raleway, sans-serif;">
+                        <x-feathericon-calendar/> Book Now
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<img src="{{ asset('images/promotions/banner.webp') }}" style="width: 100vw;">
+
 <div class="team-clean">
     <div class="container">
         <div class="intro">
@@ -46,7 +49,6 @@
             </div>
         </div>
     </div>
-    
 </div>
 <div class="py-5 mt-5" style="background-image: url('{{ asset('images/home/featured.webp') }}'); background-size: contain; background-repeat: repeat;">
     <div class="intro">
