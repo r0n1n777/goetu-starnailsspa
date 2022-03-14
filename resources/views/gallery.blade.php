@@ -8,7 +8,7 @@
         <div class="container">
             <img src="{{ asset('images/gallery/gallery.webp') }}" class="img-fluid rounded mt-3"><br>
             <div class="row photos pt-3">
-                @for ($x = 59; $x >= 1; $x--)
+                @for ($x = 78; $x >= 1; $x--)
                 <div class="col-sm-3 col-md-4 col-lg-3 text-center item"><a data-lightbox="photos" href="{{ asset('images/gallery/'.$x.'.webp') }}"><img class="img-fluid border rounded border-white shadow gallery_image" src="{{ asset('images/gallery/'.$x.'.webp') }}" data-aos="fade-up"></a></div>
                 @endfor
             </div>
