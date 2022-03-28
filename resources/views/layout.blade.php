@@ -90,12 +90,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-primary text-center mb-3" data-aos="fade-up">
-                    <span class="text-white">Rate us on:</span><br>
+                    <span class="text-white">Find out more:</span><br>
                     <a href="https://www.yelp.com/biz/star-nails-and-spa-las-vegas-3" target="_blank">
-                        <img src="{{ asset('images/icons/yelp.webp') }}" width="20px">Yelp Reviews
+                        <img src="{{ asset('images/icons/yelp.webp') }}" width="20px">Yelp
                     </a><br>
-                    <a href="https://www.google.com/search?q=Star+Nails+%26+Spa&stick=H4sIAAAAAAAAAONgU1I1qLAwSLZINk8yMzaysEw1TzS2MqiwNLcwTTE0MLU0MTeyTExOWcQqEFySWKTgl5iZU6ygphBckAgABicHVTwAAAA&hl=en&mat=CS78NYG2t0zwEmQBT5f1BqV8bYf40_uu3oX2ISUV-2bxkR4yQOjsP8qqV-SkHdJpS_M_1mh3846rMgv2hWisoJa0y21hMBixtAC4VprEqKCpSCNK7W7Zpu9PRPTtkU2a7FDcdRuvso1s79Ba1LHt&authuser=0#lrd=0x80c8c7b63289e7a3:0x9785d10594729acd,1" target="_blank">
-                        <img src="{{ asset('images/icons/google.webp') }}" width="20px" class="mr-1">Google Reviews
+                    <a href="https://www.google.com/search?q=star+nails+%26+spa+6530+s+decatur&rlz=1C1CHBF_enPH96[…]57i512j0i20i263i512j69i60l3.4247j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+                        <img src="{{ asset('images/icons/google.webp') }}" width="20px" class="mr-1">Google
                     </a><br><br>
                     
                     <span class="text-white">Follow us on Social Media:</span><br>
