@@ -17,7 +17,7 @@
                             and services procedures you can rest assured that you are in good hands.<br><br>We truly value all of our customers feedback and want to listen to you inout. If you are unsatisfied with your service at our salon for any
                             reason, please speak to a team member at the front desk and we will help accommodate you to the best of our ability.</p>
                         <p class="font-weight-bold text-black" data-aos="fade-up">At Star Nails & Spa, we aim to provide you with outstanding services that exceed the highest of standards. With the help of our dedicated team, professional and comfortable environment and exceptional sanitation practices, we hope you leave our salon with a rejuvenating experience. We're here for your every nail care need! Please contact us with any questions or concerns today.</p>
-                        <img src="{{ asset('images/about/contact.webp') }}" class="img-fluid" data-aos="fade-up">
+                        {{-- <img src="{{ asset('images/about/contact.webp') }}" class="img-fluid" data-aos="fade-up"> --}}
                     </div>
                 </div>
             </div>

@@ -114,7 +114,7 @@
                 <div class="col-md-3 text-primary text-center" data-aos="fade-up" data-aos-delay="200">
                     <span class="text-white">Business Hours:</span><br>
                     <x-feathericon-clock/> Mon - Sat: <br>9:30AM - 8:00PM<br>
-                    <x-feathericon-clock/> Sunday: <br>11:00AM - 6:00PM
+                    <x-feathericon-clock/> Sunday: <br>Closed
                 </div>
             </div>
             {{-- <p class="m-0 small">Copyright&nbsp;©&nbsp;Star Nails & Spa 2022</p> --}}
