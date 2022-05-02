@@ -63,7 +63,7 @@
             </div>
         </div>
     </h1>
-    <nav class="navbar navbar-light navbar-expand-lg bg-dark py-lg-4" id="mainNav" style="background-color: rgb(242,244,245);">
+    <nav class="navbar navbar-light navbar-expand-lg bg-dark py-lg-4 sticky-top" id="mainNav" style="background-color: rgb(242,244,245);">
         <div class="container">
             <a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">
                 <img src="{{ asset('logo-no-bg.webp') }}" width="50px">
@@ -114,7 +114,7 @@
                 <div class="col-md-3 text-primary text-center" data-aos="fade-up" data-aos-delay="200">
                     <span class="text-white">Business Hours:</span><br>
                     <x-feathericon-clock/> Mon - Sat: <br>9:30AM - 8:00PM<br>
-                    <x-feathericon-clock/> Sunday: <br>Closed
+                    <x-feathericon-clock/> Sunday: <br>11:00AM - 6:00PM<br>(For Appointments Only)
                 </div>
             </div>
             {{-- <p class="m-0 small">Copyright&nbsp;©&nbsp;Star Nails & Spa 2022</p> --}}
