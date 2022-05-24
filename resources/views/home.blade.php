@@ -20,7 +20,7 @@
     </div>
 </section>
 
-<img src="{{ asset('images/promotions/banner.webp') }}" style="width: 100vw;">
+{{-- <img src="{{ asset('images/promotions/banner.webp') }}" style="width: 100vw;"> --}}
 
 <div class="team-clean">
     <div class="container">
